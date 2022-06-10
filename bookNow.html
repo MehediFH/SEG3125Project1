@@ -9,10 +9,11 @@
     <title>FRESHCUTS Hair Salon</title>
 </head>
 
-<body>
+<body style="background-color: lightgrey;">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(255, 255, 255);">
         <div class="container">
+            <img src="/assets/logo.png" style="width: 5%;">
             <a href="/index.html" class="navbar-brand"
                 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: bold; font-size: xx-large;
                 color: black;">
@@ -27,18 +28,18 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="SEG3125Project1/index.html" class="nav-link" style="text-decoration: underline; color: black;">HOME</a>
+                        <a href="/index.html" class="nav-link" style="text-decoration: underline; color: black;">HOME</a>
                     <li class="nav-item">
-                        <a href="SEG3125Project1/aboutUs.html" class="nav-link" style="text-decoration: underline; color: black;">ABOUT US</a>
+                        <a href="/aboutUs.html" class="nav-link" style="text-decoration: underline; color: black;">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a href="SEG3125Project1/ourServices.html" class="nav-link" style="text-decoration: underline; color: black;">OUR SERVICES</a>
+                        <a href="/ourServices.html" class="nav-link" style="text-decoration: underline; color: black;">OUR SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a href="SEG3125Project1/contactUs.html" class="nav-link" style="text-decoration: underline; color: black;">CONTACT US</a>
+                        <a href="/contactUs.html" class="nav-link" style="text-decoration: underline; color: black;">CONTACT US</a>
                     </li>
                     <li class="nav-item">
-                        <a href="SEG3125Project1/bookNow.html" class="nav-link" style="background-color: rgb(226, 29, 23); color: black;">BOOK NOW</a>
+                        <a href="/bookNow.html" class="nav-link" style="background-color: rgb(226, 29, 23); color: black;">BOOK NOW</a>
                     </li>
                     </li>
                 </ul>
@@ -47,9 +48,185 @@
         </div>
         
     </nav>
-    
+
     <div class="row">
         <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+    </div>
+
+    <!--Book Now Title-->
+    <div class="container-fluid" style="text-align: center; background-color: gold;" style="border: 200px;">
+        <div class="row">
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1 style="text-decoration: underline;">BOOK NOW</h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+    </div>
+
+    <!--Book Now Form-->
+    <div class="container-fluid" style="text-align: center; background-color: white;">
+        <div class="row justify-content-center">
+            <div class="col-md-3 p-2">
+                <div class="input-group" >
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">First Name</span>
+                    </div>
+                    <input id="FirstName" type="text" aria-label="First Name" class="form-control">
+                    </div> 
+            </div>
+            <div class="col-md-3 p-2">
+                <div class="input-group" >
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Last Name</span>
+                    </div>
+                    <input id="LastName" type="text" aria-label="Last Name" class="form-control">
+                    </div> 
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-2">
+                <div class="input-group" >
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Email</span>
+                    </div>
+                    <input id="Email" type="text" aria-label="Email" class="form-control">
+                    </div> 
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-2">
+                <div class="input-group mb-3 " style="width: 100%;">
+                    <div class="input-group-prepend" style="width: 30%;">
+                      <label class="input-group-text" for="inputGroupSelect01">Select a Service</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01" style="width: 70%;">
+                      <option selected>Choose...</option>
+                      <option value="Men's Basic Haircut ~ $25">Men's Basic Haircut ~ $25</option>
+                      <option value="Men's Full Haircut ~ $30">Men's Full Haircut ~ $30</option>
+                      <option value="Hair Extensions ~ $60">Hair Extensions ~ $60</option>
+                      <option value="Kid's Haircut ~ $15">Kid's Haircut ~ $15</option>
+                      <option value="Hair Colour ~ $40">Hair Colour ~ $40</option>
+                      <option value="Beard and Moustache Trim ~ $20">Beard and Moustache Trim ~ $20</option>
+                      <option value="Hot Shave ~ $20">Hot Shave ~ $20</option>
+                      <option value="Women's Basic Haircut ~ $25">Women's Basic Haircut ~ $25</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-2">
+                <div class="input-group mb-3 " style="width: 100%;">
+                    <div class="input-group-prepend" style="width: 30%;">
+                      <label class="input-group-text" for="inputGroupSelect02">Select a Expert</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect02" style="width: 70%;">
+                      <option selected>Choose...</option>
+                      <option value="Tom">Tom</option>
+                      <option value="David">David</option>
+                      <option value="Julie">Julie</option>
+                      <option value="Mohamed">Mohamed</option>
+                      <option value="Adam">Adam</option>
+                      <option value="Omar">Omar</option>
+                      <option value="Jessica">Jessica</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-2">
+                <div class="input-group mb-3 " style="width: 100%;">
+                    <div class="input-group-prepend" style="width: 30%;">
+                      <label class="input-group-text" for="inputGroupSelect03">Select an Available Date</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect03" style="width: 70%;">
+                      <option selected>Choose...</option>
+                      <option value="Monday June 12th">Monday June 12th</option>
+                      <option value="Wednesday June 14th">Wednesday June 14th</option>
+                      <option value="Friday June 16th">Friday June 16th</option>
+                      <option value="Sunday June 18th">Sunday June 18th</option>
+                      <option value="Tuesday June 20th">Tuesday June 20th</option>
+                      <option value="Wednesday June 21st">Wednesday June 21st</option>
+                      <option value="Saturday June 24th">Saturday June 24th</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-2">
+                <div class="input-group mb-3 " style="width: 100%;">
+                    <div class="input-group-prepend" style="width: 30%;">
+                      <label class="input-group-text" for="inputGroupSelect04">Select an Available Time</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect04" style="width: 70%;">
+                      <option selected>Choose...</option>
+                      <option value="1:00pm">1:00pm</option>
+                      <option value="1:30pm">1:30pm</option>
+                      <option value="3:30pm">3:30pm</option>
+                      <option value="4:00pm">4:00pm</option>
+                      <option value="4:30pm">4:30pm</option>
+                      <option value="8:00pm">8:00pm</option>
+                      <option value="8:30pm">8:30pm</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="BookNowBtn" style="background-color: rgb(226, 29, 23); color: black;">Book Now</button>
+        <div class="row">
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+        </div>
+        <div id="BookNowConfirmation"></div>
+        <div class="row">
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+        </div>
+
+        <script>
+            var alertPlaceholder = document.getElementById('BookNowConfirmation')
+            var alertTrigger = document.getElementById('BookNowBtn')
+
+            function alert(message, type) {
+            var wrapper = document.createElement('div')
+            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+            alertPlaceholder.append(wrapper)
+            }
+
+            if (alertTrigger) {
+            alertTrigger.addEventListener('click', function () {
+                let Firstname = document.getElementById("FirstName").value;
+                let LastName = document.getElementById("LastName").value;
+                let Email = document.getElementById("Email").value;
+                let service = document.getElementById("inputGroupSelect01").value;
+                let expert = document.getElementById("inputGroupSelect02").value;
+                let date = document.getElementById("inputGroupSelect03").value;
+                let time = document.getElementById("inputGroupSelect04").value;
+                alert(`Thank you ${Firstname} ${LastName} for choosing FRESHCUTS hair salon, your appointment with ${expert} for a ${service} is confirmed for ${date} at ${time} . A confirmation email will also be sent to ${Email}.
+                We look forward to seeing you !`, 'success')})}
+        </script>
+        
+    
+    </div>
+
+    <div class="row">
         <h1></h1>
         <h1></h1>
         <h1></h1>
@@ -66,13 +243,14 @@
             </div>
             <div class="row ">
                 <div class="col">
-                    <a href="SEG3125Project1/contactUs.html" class="navbar-brand"
+                    <a href="/contactUs.html" class="navbar-brand"
                     style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: bold; font-size: 25px;
                     color: black;">
                     Contact Us</a>
                 </div>
                 <div class="col">
-                    <a href="SEG3125Project1/index.html" class="navbar-brand"
+                    <img src="/assets/logo.png" style="width: 10%;">
+                    <a href="/index.html" class="navbar-brand"
                     style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: bold; font-size: xx-large;
                     color: black;">
                     FRESHCUTS<div style="font-size: 25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hair
@@ -80,7 +258,7 @@
                     
                 </div>
                 <div class="col">
-                    <a href="SEG3125Project1/index.html" class="navbar-brand"
+                    <a href="/index.html" class="navbar-brand"
                     style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-weight: bold; font-size: 25px;
                     color: black;">
                     Locations<div style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123 Apple St</div></a>
